@@ -1,0 +1,47 @@
+@media(max-width:500px) {
+  html{
+    background-image: url(./blurimage.png);
+    background-attachment: fixed;
+   
+}  
+.ramana{
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+}
+.box{
+    width: 250px;
+    height: 130px;
+    background-color:whitesmoke;
+    margin:7px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.box1{
+    width: 220px;
+    height: 18px;
+    border-radius: 3px;
+    background-color:white;
+    margin-top: 20px;
+}
+.fa-xmark {
+    position:absolute;
+    left:320px;
+    top:220px;  
+}
+.test{
+    position:absolute;
+    left: 230px;
+    top:305px;  
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+.fa-plus{
+    color: aliceblue;
+    position: absolute;
+    left: 10px;
+    top:8px;
+}
+}
